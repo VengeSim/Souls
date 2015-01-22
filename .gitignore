@@ -4,6 +4,7 @@
 *.log
 Builds/*
 Research/*
+Logs/*
 
 # =============== #
 # Unity generated #
