@@ -1,14 +1,4 @@
-enum FacingDirection
-{
-	North
-	NorthEast
-	East
-	SouthEast
-	South
-	SouthWest
-	West
-	NorthWest
-}
+//Date Unknown
 
-
-
+22/1/15
+Cleaned and got rid of complexity

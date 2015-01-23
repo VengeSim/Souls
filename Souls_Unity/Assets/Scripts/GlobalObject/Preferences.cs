@@ -1,15 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Preferences : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class Preferences : VengeBehaviour 
+{
+		
+		
+		
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

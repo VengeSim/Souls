@@ -1,13 +1,12 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using Venge;
-using Souls;
 
-namespace Souls
+
+namespace Venge
 {
-	public class IngameObject : SoulsObject
+	public class Object
 	{
 		protected string name;
 		protected string description;
@@ -25,13 +24,13 @@ namespace Souls
 			}
 		}
 		
-		public IngameObject()
+		public Object()
 		{
 			this.name = "Ingame Object";
 			this.description = "Base Class for all Game Objects";
 		}
 		
-		public IngameObject(string name, string description)
+		public Object(string name, string description)
 		{
 			this.name = name;
 			this.description = description;

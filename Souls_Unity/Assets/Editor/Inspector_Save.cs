@@ -2,26 +2,25 @@ using UnityEngine;
 using UnityEditor;
 using System;
 using System.Collections;
-using Venge;
 
 
 
 
 [CanEditMultipleObjects]
-[CustomEditor(typeof(Initialization))]
+[CustomEditor(typeof(Save))]
 
-public class Inspector_Initialization : Editor 
+public class Inspector_Save : Editor 
 {
 	public override void OnInspectorGUI()
 	{
-		//Initialization script = (Initialization)target;
+		Save script = (Save)target;
 		//GameObject gObject = script.gameObject;
 		
 		DrawDefaultInspector();
 		
 			if(GUILayout.Button("Open Save Directory"))
 			{
-				EditorUtility.RevealInFinder(Save.GetDirectory());
+				EditorUtility.RevealInFinder(script.Directory);
 			}
 		
 		//script.DebugMode = EditorGUILayout.Toggle("DebugMode", script.DebugMode);

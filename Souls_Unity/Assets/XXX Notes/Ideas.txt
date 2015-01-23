@@ -1,0 +1,11 @@
+enum FacingDirection
+{
+	North
+	NorthEast
+	East
+	SouthEast
+	South
+	SouthWest
+	West
+	NorthWest
+}

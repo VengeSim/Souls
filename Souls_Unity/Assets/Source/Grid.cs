@@ -1,13 +1,11 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using Venge;
-using Souls;
 
-namespace Souls
+namespace Venge
 {
-	public class Grid : SoulsObject
+	public class Grid
 	{
 		
 		protected Cell[,] grid;
